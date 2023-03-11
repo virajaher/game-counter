@@ -13,8 +13,8 @@ body {
 
 .backgrnd {
     background-image: url("images/pacman-bg.jpg");
-    
-    background-color: #111827;
+    background-blend-mode: overlay;
+    background-color: #11182770;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -86,7 +86,6 @@ h4 {
     width: 155px;
     height: 120px;
     border-radius: 5px;
-    
 }
 
 
@@ -95,9 +94,8 @@ p {
     font-style: normal; 
     font-weight: 400;
     font-size: 50px;
-    line-height: 80px;
-    padding-left: 24px;
-    padding-top: 24px;;
+    line-height: 125px;
+    padding-left: 20px;
 }
 
 .btn-style {
