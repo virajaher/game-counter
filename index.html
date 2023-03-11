@@ -10,34 +10,34 @@
         <div class="backgrnd"> 
             <div class="container">
                 <div class="twoCols">
-
+ 
                     <div> <!--Coloum1-->
                         <h3>HOME</h3>
                         <div class="score-bg">
-                            <p id="count-el">0</p>
+                            <p id="home-count-el">0</p>
                         </div>
                         <div>
-                            <button class="btn-style" id="plus-one">+1</button>
-                            <button class="btn-style" id="plus-two">+2</button>
-                            <button class="btn-style" id="plus-three">+3</button>
+                            <button id="add-point" onclick="incrementOne()">+1</button>
+                            <button id="add-point" onclick="incrementTwo()">+2</button>
+                            <button id="add-point" onclick="incrementThree()">+3</button>
                         </div>
                     </div>
 
                     <div> <!--Coloum2-->
                         <h3>GUEST</h3>
                         <div class="score-bg">
-                            <p id="count-el">0</p>
+                            <p id="guest-count-el">0</p>
                         </div>
                         <div>
-                            <button class="btn-style" id="plus-one">+1</button>
-                            <button class="btn-style" id="plus-two">+2</button>
-                            <button class="btn-style" id="plus-three">+3</button>
+                            <button id="add-point" onclick="incOne()">+1</button>
+                            <button id="add-point" onclick="incTwo()">+2</button>
+                            <button id="add-point" onclick="incThree()">+3</button>
                         </div>
                     </div>
 
                 </div>
                 <div>
-                    <button id="restart-btn">Restart</button>
+                    <button id="restart-btn" onclick="restart()">Restart</button>
                 </div>
 
             </div>

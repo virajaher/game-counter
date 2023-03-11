@@ -98,7 +98,7 @@ p {
     padding-left: 20px;
 }
 
-.btn-style {
+#add-point {
     font-family: 'Press Start 2P';
     font-style: normal;
     font-weight: 400;
@@ -112,7 +112,7 @@ p {
     cursor: pointer;
 }
 
-.btn-style:hover { 
+#add-point:hover { 
     background-color: #6EE7B7;
     color: #111827;
     border: 2px solid #111827;
@@ -120,6 +120,6 @@ p {
     cursor: pointer;
 }
 
-.btn-style:active { 
+#add-point:active { 
     -webkit-transform: perspective(100px) scale(0.9);
 }
