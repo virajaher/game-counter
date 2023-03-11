@@ -25,14 +25,14 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 25px;
+    justify-content: space-evenly;
+    padding: 60px;
     height: 385px;
     width: 725px;
     color: white;
     background-color: #111827;
     border: 5px solid #C6F6E3;
-    box-shadow: 0px 4px 69px -6px rgba(110, 231, 183, 0.56);
+    box-shadow: 0px 4px 40px -5px rgba(114, 230, 183, 0.56);
     border-radius: 5px;
     text-align: center;
 }
@@ -40,6 +40,14 @@ body {
 .twoCols {
     display: flex;
     justify-content: space-evenly;
+}
+
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    color: #6EE7B7;
+    font-size: 32px;
+    line-height: 33.6px;
 }
 
 h3 {
@@ -52,6 +60,8 @@ h4 {
     font-family: 'Press Start 2P', cursive;
     font-size: 3em;
 }
+
+
 
 #restart-btn { 
     font-family: 'Press Start 2P', cursive;
