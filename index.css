@@ -13,6 +13,8 @@ body {
 
 .backgrnd {
     background-image: url("images/pacman-bg.jpg");
+    
+    background-color: #111827;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -23,19 +25,103 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 25px;
     height: 385px;
-    width: 575;
+    width: 725px;
     color: white;
     background-color: #111827;
+    border: 5px solid #C6F6E3;
+    box-shadow: 0px 4px 69px -6px rgba(110, 231, 183, 0.56);
+    border-radius: 5px;
+    text-align: center;
 }
 
+.twoCols {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 h3 {
     font-family: 'Press Start 2P', cursive;
+    font-size: 28px;
+    line-height: 33.6px;
 }
 
 h4 {
     font-family: 'Press Start 2P', cursive;
     font-size: 3em;
+}
+
+#restart-btn { 
+    font-family: 'Press Start 2P', cursive;
+    font-size: 11px;
+    padding: 12px 12px;
+    background-color: #6EE7B7;
+    border: 2px solid #6EE7B7;
+    border-radius: 5px;
+}
+/* standard hover effect
+#restart-btn:hover { 
+    background-color: #5ec49b;
+    cursor: pointer;
+} */
+
+#restart-btn:hover { 
+    background-color: #111827;
+    color: #6EE7B7;
+    border: 2px solid #6EE7B7;
+    cursor: pointer;
+
+}
+
+#restart-btn:active {
+    -webkit-transform: perspective(100px) scale(0.9);
+    
+}
+
+.score-bg {
+    color: #111827;
+    background-color: #6EE7B7;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    
+}
+
+
+p {
+    font-family: 'Press Start 2P';
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 80px;
+    padding-left: 24px;
+    padding-top: 24px;;
+}
+
+.btn-style {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    padding: 11px;
+    margin: 24px 0; 
+    background-color: #111827;
+    color: #6EE7B7;
+    border: 2px solid #6EE7B7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-style:hover { 
+    background-color: #6EE7B7;
+    color: #111827;
+    border: 2px solid #111827;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-style:active { 
+    -webkit-transform: perspective(100px) scale(0.9);
 }
