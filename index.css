@@ -1,0 +1,41 @@
+
+/*
+Colors
+Green = #6EE7B7
+Darkblue =#111827
+White = #EEEEEE 
+*/
+
+body {
+    margin: 0;
+    
+}
+
+.backgrnd {
+    background-image: url("images/pacman-bg.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 385px;
+    width: 575;
+    color: white;
+    background-color: #111827;
+}
+
+
+h3 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+h4 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3em;
+}
